@@ -96,7 +96,7 @@ export class Location {
     /**
      *
      * @param {number} id - id `1`
-     * @param {`Restoran ABC`|`Nasi Ayam Kunyit KK7`|`Daun Cafe`|`Food Arena KK12`|`McD SS2`|`Sharwarma KK2`|`Western Food KK5`|`Faculty of Science`|`Faculty of Engineeringg`|`Faculty of Arts and Social Science`|`Faculty of Medicine`|`Faculty of Business and Administration `|`Faculty of Computer Science and Information Technology`|`Faculty of Education`|`1st Residential College`|`2nd Residential College`|`3rd Residential College`|`4th Residential College`|`5th Residential College`|`6th Residential College`|`7th Residential College`|`8th Residential College`|`9th Residential College`|`10th Residential College`|`11th Residential College`|`12th Residential College`|`13th Residential College`|`International House`|`Japan Apartment`} name - name `Restoran ABC`
+     * @param {`Restoran ABC`|`Nasi Ayam Kunyit KK7`|`Daun Cafe`|`Food Arena KK12`|`McD SS2`|`Sharwarma KK2`|`Western Food KK5`|`Faculty of Science`|`Faculty of Engineeringg`|`Faculty of Arts and Social Science`|`Faculty of Medicine`|`Faculty of Business and Administration `|`FSKTM`|`Faculty of Education`|`1st Residential College`|`2nd Residential College`|`3rd Residential College`|`4th Residential College`|`5th Residential College`|`6th Residential College`|`7th Residential College`|`8th Residential College`|`9th Residential College`|`10th Residential College`|`11th Residential College`|`12th Residential College`|`13th Residential College`|`International House`|`Japan Apartment`} name - name `Restoran ABC`
      * @param {`restaurant`|`residential college`|`faculty`} type - type 'restaurant'
      * @param {`Kuala Lumpur`} address - adress `Kuala Lumpur`
      * @param {number} maxCapacity - maximum capacity `50`
@@ -136,7 +136,7 @@ export class Location {
   }
   /**
    *
-   * @param {`Restoran ABC`|`Nasi Ayam Kunyit KK7`|`Daun Cafe`|`Food Arena KK12`|`McD SS2`|`Sharwarma KK2`|`Western Food KK5`|`Faculty of Science`|`Faculty of Engineeringg`|`Faculty of Arts and Social Science`|`Faculty of Medicine`|`Faculty of Business and Administration `|`Faculty of Computer Science and Information Technology`|`Faculty of Education`|`1st Residential College`|`2nd Residential College`|`3rd Residential College`|`4th Residential College`|`5th Residential College`|`6th Residential College`|`7th Residential College`|`8th Residential College`|`9th Residential College`|`10th Residential College`|`11th Residential College`|`12th Residential College`|`13th Residential College`|`International House`|`Japan Apartment`} name - insert the place name `Restoran ABC`
+   * @param {`Restoran ABC`|`Nasi Ayam Kunyit KK7`|`Daun Cafe`|`Food Arena KK12`|`McD SS2`|`Sharwarma KK2`|`Western Food KK5`|`Faculty of Science`|`Faculty of Engineeringg`|`Faculty of Arts and Social Science`|`Faculty of Medicine`|`Faculty of Business and Administration `|`FSKTM`|`Faculty of Education`|`1st Residential College`|`2nd Residential College`|`3rd Residential College`|`4th Residential College`|`5th Residential College`|`6th Residential College`|`7th Residential College`|`8th Residential College`|`9th Residential College`|`10th Residential College`|`11th Residential College`|`12th Residential College`|`13th Residential College`|`International House`|`Japan Apartment`} name - insert the place name `Restoran ABC`
    * @param {number} pax - number of people `1`
    * @returns {Promise}
    */
@@ -206,3 +206,30 @@ export class Location {
 // const person1 = new Person(1, "Ahmad Ali", "012-3456789", "healthy", "2024-01-15");
 // const location1 = new Location(1, "Restoran ABC", "restaurant", "KL", 50);
 // console.log(person1.getDaysSinceTest()); // Should calculate days from lastTested to today
+
+export class place {
+  /**
+   *
+   * @param {number} id - id `1`
+   * @param {`Restoran ABC`|`Nasi Ayam Kunyit KK7`|`Daun Cafe`|`Food Arena KK12`|`McD SS2`|`Sharwarma KK2`|`Western Food KK5`|`Faculty of Science`|`Faculty of Engineeringg`|`Faculty of Arts and Social Science`|`Faculty of Medicine`|`Faculty of Business and Administration `|`FSKTM`|`Faculty of Education`|`1st Residential College`|`2nd Residential College`|`3rd Residential College`|`4th Residential College`|`5th Residential College`|`6th Residential College`|`7th Residential College`|`8th Residential College`|`9th Residential College`|`10th Residential College`|`11th Residential College`|`12th Residential College`|`13th Residential College`|`International House`|`Japan Apartment`} name - name `Restoran ABC`
+   * @param {`restaurant`|`residential college`|`faculty`} type - type 'restaurant'
+   * @param {`Kuala Lumpur`} address - adress `Kuala Lumpur`
+   * @param {number} maxCapacity - maximum capacity `50`
+   */
+
+  // Properties: id, name, type, address, maxCapacity
+  constructor(
+    id,
+    name = `Restoran ABC`,
+    type = `restaurant`,
+    address = `Kuala Lumpur`,
+    maxCapacity = 50
+  ) {
+    this.id = `#` + id.toString().padStart(3, `0`);
+    this.name = name;
+    this.type = type;
+    this.address = address;
+    this.maxCapacity = maxCapacity;
+    return this;
+  }
+}
