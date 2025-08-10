@@ -1,0 +1,17 @@
+{
+  "name": "example-for-chapter-4",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^7.8.1",
+    "inquirer": "^12.9.1",
+    "mongodb": "^6.18.0"
+  }
+}
