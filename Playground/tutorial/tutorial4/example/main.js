@@ -6,12 +6,13 @@ mongo_db_operation.init().then(async () => {
   let stopper = false;
   while (stopper == false) {
     await run();
-    stopper = await mongo_db_operation.prompt.continue();
+    // stopper = await mongo_db_operation.prompt.continue();
+    stopper = true
   }
   await mongo_db_operation.close();
 });
 
 const run = async () => {
-  const answer = await mongo_db_operation.find_operation.find()
+  const answer = await mongo_db_operation.find_operation.find_with_asking_select_specific_fields()
   console.table(answer);
 };

@@ -85,7 +85,7 @@ class find_operation {
     this.prompt = new prompt();
   }
   async init() {
-    this.current_data = this.parent.current_data;
+    this.current_data = await this.parent.current_data;
   }
   async ask_conditions() {
     const condition_key = Object.keys(this.current_data[0]).slice(1);
@@ -112,8 +112,9 @@ class find_operation {
    */
   async find(conditions = {}, specific_fields = {}) {
     //Find all documents
-    await this.asking_select_specific_fields();
-    return this.parent.users.find(conditions, specific_fields).toArray();
+    return this.parent.users
+      .find(conditions, { projection: specific_fields })
+      .toArray();
   }
   async find_with_conditions() {
     // Ask the users which to find
@@ -139,13 +140,22 @@ class find_operation {
       .findOne({ [key]: value })
       .then(({ _id, ...rest }) => ({ ...rest }));
   }
-  async asking_select_specific_fields() {
-    return console.log(this.current_data);
-    const answer = await this.prompt.checkbox(
+  async find_with_asking_select_specific_fields() {
+    let value = Object.keys(this.current_data[0]);
+    value = value.map((i) => {
+      let checked;
+      if ([`name`].includes(i)) {
+        checked = true;
+      }
+      return { value: i, checked };
+    });
+    let answer = await this.prompt.checkbox(
       `Please select the fields you want`,
-      Object.keys(this.current_data[0])
+      value
     );
-    console.log(answer);
+    answer = Object.fromEntries(answer.map((i) => [i, 1]));
+
+    return this.find({}, answer);
   }
 }
 
@@ -184,6 +194,8 @@ class prompt {
     return checkbox({
       message: question,
       choices: choice,
+      required: true,
+      loop: false,
     });
   }
 }
