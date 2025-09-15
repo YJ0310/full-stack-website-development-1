@@ -1,0 +1,32 @@
+_id	University Name	Short Form	Location	QS Ranking	University Level	Public University	Research University
+U01	University of Malaya	UM	Kuala Lumpur	58	University	TRUE	TRUE
+U02	Universiti Kebangsaan Malaysia	UKM	Bangi, Selangor	126	University	TRUE	TRUE
+U03	Universiti Putra Malaysia	UPM	Serdang, Selangor	134	University	TRUE	TRUE
+U04	Universiti Sains Malaysia	USM	Gelugor, Penang	134	University	TRUE	TRUE
+U05	Universiti Teknologi Malaysia	UTM	Skudai, Johor	153	University	TRUE	TRUE
+U06	Taylor's University	Taylor's	Subang Jaya, Selangor	253	University	FALSE	TRUE
+U07	UCSI University	UCSI	Kuala Lumpur	269	University	FALSE	TRUE
+U08	Sunway University	Sunway	Bandar Sunway, Selangor	410	University	FALSE	TRUE
+U09	Universiti Utara Malaysia	UUM	Sintok, Kedah	491	University	TRUE	FALSE
+U10	INTI International University	INTI	Nilai, Negeri Sembilan	509	University	FALSE	FALSE
+U11	Universiti Teknologi MARA	UiTM	Shah Alam, Selangor	542	University	TRUE	FALSE
+U12	Asia Pacific University of Technology & Innovation	APU	Kuala Lumpur	597	University	FALSE	FALSE
+U13	Management and Science University	MSU	Shah Alam, Selangor	597	University	FALSE	FALSE
+U14	Universiti Malaysia Pahang Al-Sultan Abdullah	UMPSA	Pekan, Pahang	609	University	TRUE	FALSE
+U15	International Islamic University Malaysia	IIUM	Gombak, Selangor	613	University	TRUE	FALSE
+U16	Universiti Malaysia Sarawak	UNIMAS	Kota Samarahan, Sarawak	1001-1200	University	TRUE	FALSE
+U17	Universiti Sains Islam Malaysia	USIM	Nilai, Negeri Sembilan	1001-1200	University	TRUE	FALSE
+U18	Universiti Malaysia Sabah	UMS	Kota Kinabalu, Sabah	1001-1200	University	TRUE	FALSE
+U19	Tunku Abdul Rahman University of Management and Technology	TARUMT	Kuala Lumpur	1001-1200	University	FALSE	FALSE
+U20	Universiti Selangor	UNISEL	Bestari Jaya, Selangor	1001-1500 (THE Impact 2025)	University	FALSE	FALSE
+U21	Universiti Kuala Lumpur	UniKL	Kuala Lumpur	1201-1400	University	FALSE	FALSE
+U22	Universiti Tun Hussein Onn Malaysia	UTHM	Parit Raja, Johor	248 (Asia 2025)	University	TRUE	TRUE
+U23	Xiamen University Malaysia	XMUM	Sepang, Selangor	341 (Xiamen University)	University	FALSE	TRUE
+U24	Universiti Teknikal Malaysia Melaka	UTeM	Durian Tunggal, Melaka	451-500 (Asia 2024)	University	TRUE	TRUE
+U25	Open University Malaysia	OUM	Kelana Jaya, Selangor	5-Star (QS Online Learning)	University	FALSE	FALSE
+U26	Universiti Tunku Abdul Rahman	UTAR	Kampar, Perak	791-800	University	FALSE	FALSE
+U27	Universiti Pendidikan Sultan Idris	UPSI	Tanjung Malim, Perak	851-900	University	TRUE	FALSE
+U28	Multimedia University	MMU	Cyberjaya, Selangor	851-900	University	FALSE	FALSE
+U29	BAC College	BAC	Petaling Jaya, Selangor	Not Ranked	College	FALSE	FALSE
+U30	HELP University	HELP	Kuala Lumpur	Not Ranked	University	FALSE	FALSE
+U31	University of Nottingham Malaysia	UNM	Semenyih, Selangor	Not Ranked	University	FALSE	FALSE
