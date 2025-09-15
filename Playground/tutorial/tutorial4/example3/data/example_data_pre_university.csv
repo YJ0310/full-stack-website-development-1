@@ -1,0 +1,41 @@
+_id	Pre University	Short Form	Location	Public Institution	Type
+PreU01	Perlis Matriculation College	KMP	Arau, Perlis	TRUE	Malaysian Matriculation Programme
+PreU02	Kedah Matriculation College	KMK	Changlun, Kedah	TRUE	Malaysian Matriculation Programme
+PreU03	Penang Matriculation College	KMPP	Kepala Batas, Penang	TRUE	Malaysian Matriculation Programme
+PreU04	Perak Matriculation College	KMPk	Gopeng, Perak	TRUE	Malaysian Matriculation Programme
+PreU05	Selangor Matriculation College	KMS	Kuala Langat, Selangor	TRUE	Malaysian Matriculation Programme
+PreU06	Pahang Matriculation College	KMPh	Gambang, Pahang	TRUE	Malaysian Matriculation Programme
+PreU07	Negeri Sembilan Matriculation College	KMNS	Kuala Pilah, Negeri Sembilan	TRUE	Malaysian Matriculation Programme
+PreU08	Melaka Matriculation College	KMM	Londang, Melaka	TRUE	Malaysian Matriculation Programme
+PreU09	Johor Matriculation College	KMJ	Tangkak, Johor	TRUE	Malaysian Matriculation Programme
+PreU10	Kelantan Matriculation College	KMKt	Kok Lanas, Kelantan	TRUE	Malaysian Matriculation Programme
+PreU11	Labuan Matriculation College	KML	Labuan, W.P. Labuan	TRUE	Malaysian Matriculation Programme
+PreU12	Sarawak Matriculation College	KMSw	Kota Samarahan, Sarawak	TRUE	Malaysian Matriculation Programme
+PreU13	Engineering Matriculation College Kedah	KMKK	Kubang Pasu, Kedah	TRUE	Malaysian Matriculation Programme (Engineering)
+PreU14	Engineering Matriculation College Pahang	KMKP	Gambang, Pahang	TRUE	Malaysian Matriculation Programme (Engineering)
+PreU15	Engineering Matriculation College Johor	KMKJ	Tangkak, Johor	TRUE	Malaysian Matriculation Programme (Engineering)
+PreU16	Sijil Tinggi Pelajaran Malaysia	STPM	Malaysia (nationwide)	TRUE	STPM
+PreU17	A-Level	A-Level	Various private colleges	FALSE	A-Level
+PreU18	UM Centre for Foundation Studies in Science	PASUM	University of Malaya, KL	TRUE	University-specific Foundation
+PreU19	Centre for Foundation Studies	Asasi Pintar	Universiti Kebangsaan Malaysia, KL	TRUE	University-specific Foundation
+PreU20	Brickfields Asia College	BAC	Petaling Jaya, Selangor	FALSE	A-Level / Diploma
+PreU21	American Degree Transfer Program	ADTP	Various private colleges	FALSE	American Degree Transfer Program
+PreU22	Australian Matriculation	AUSMAT / SACEi	Various private colleges	FALSE	Australian Matriculation
+PreU23	South Australian Matriculation	SAM	Taylor's College	FALSE	Australian Matriculation
+PreU24	Canadian Pre-University	CPU / CIMP	Various private colleges	FALSE	Canadian Pre-University
+PreU25	Diploma	N/A	Various public/private institutions	N/A	Diploma
+PreU26	KPTM Colleges	KPTM	Various locations	FALSE	Diploma/Pre-University
+PreU27	Foundation in Arts	N/A	Various private universities	FALSE	Foundation Programme
+PreU28	Foundation in Business	N/A	Various private universities	FALSE	Foundation Programme
+PreU29	Foundation in Engineering	N/A	Various private universities	FALSE	Foundation Programme
+PreU30	Foundation in Science	N/A	Various private universities	FALSE	Foundation Programme
+PreU31	INTI Foundation	N/A	Various INTI campuses	FALSE	Foundation Programme
+PreU32	Sunway College Foundation	N/A	Sunway College	FALSE	Foundation Programme
+PreU33	Taylor's College Foundation	N/A	Various Taylor's campuses	FALSE	Foundation Programme
+PreU34	UCSI Foundation	N/A	Various UCSI campuses	FALSE	Foundation Programme
+PreU35	UTAR Foundation	N/A	UTAR campuses	FALSE	Foundation Programme
+PreU36	Monash University Foundation Year	MUFY	Sunway College	FALSE	Foundation Programme (Specific)
+PreU37	International Baccalaureate	IBDP	Various international schools	FALSE	International Baccalaureate
+PreU38	Politeknik Ibrahim Sultan	PIS	Pasir Gudang, Johor	TRUE	Polytechnic Diploma
+PreU39	Politeknik Sultan Salahuddin Abdul Aziz Shah	PSA	Shah Alam, Selangor	TRUE	Polytechnic Diploma
+PreU40	Politeknik Ungku Omar	PUO	Ipoh, Perak	TRUE	Polytechnic Diploma
